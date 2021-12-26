@@ -4,6 +4,9 @@ body {
 	font-family: "Inter", sans-serif;
 	color: white;
 	text-decoration: none;
+}
+
+body {
 	margin: 50px;
 }
 
@@ -32,6 +35,30 @@ h4 {
 h5 {
 	font-weight: normal;
 	font-size: x-large;
+}
+
+.nav {
+	width: 100%;
+	/* border-bottom: 1px solid white; */
+	position: relative;
+}
+
+.nav-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+}
+
+.link {
+	display: inline-block;
+	text-align: right;
+	/* padding: 15px 0; */
+	margin: 15px 25px;
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
 }
 
 .center {
