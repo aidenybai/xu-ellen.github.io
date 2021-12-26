@@ -1,0 +1,47 @@
+html, body {
+    background-color: #2A363B;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+hr {
+    background-color: white;
+}
+
+h4 {
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+h5 {
+    font-weight:normal;
+    font-size: x-large;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    /*padding: 10px;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home {
+
+}
