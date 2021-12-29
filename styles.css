@@ -133,8 +133,6 @@ p {
 	height: 600px;
 }
 
-/* TODO: figure out how to center text on hover */
-
 .info {
 	display: none;
 	color: #fff;
@@ -143,6 +141,12 @@ p {
 	right: 0;
 	text-align: center;
 	position: absolute;
+}
+
+.pic {
+	width: 800px;
+	height: 600px;
+	perspective: 1000px;
 }
 
 .pic:hover > .overlay {
