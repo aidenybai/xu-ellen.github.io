@@ -11,4 +11,5 @@ const flip = document.querySelector(".flip");
 
 pic.addEventListener("click", () => {
 	col.classList.toggle("change");
+	pic.classList.toggle("no-hover");
 });

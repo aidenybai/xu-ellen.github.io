@@ -155,7 +155,7 @@ p {
 	visibility: hidden;
 }
 
-.pic:hover > .overlay {
+.pic:not(.no-hover):hover > .overlay {
 	position: absolute;
 	top: 0;
 	width: 800px;
@@ -167,7 +167,7 @@ p {
 	display: block;
 }
 
-.pic:hover .info {
+.pic:not(.no-hover):hover .info {
 	display: block;
 }
 
