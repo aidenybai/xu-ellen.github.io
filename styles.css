@@ -115,6 +115,10 @@ p {
 	transform: rotateZ(45deg) translate(-8px, -6px);
 }
 
+#about {
+	padding-top: 20%;
+}
+
 #box {
 	padding-top: 5rem;
 	width: 90%;
