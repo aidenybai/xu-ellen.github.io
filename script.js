@@ -16,10 +16,8 @@ menuIcon.addEventListener("click", () => {
 
 const pics = document.querySelectorAll(".pic");
 const col = document.querySelectorAll(".col");
-console.log(pics, col);
 
 function myfunction(i) {
-	console.log("clicked", i, col[i], pics[i]);
 	col[i].classList.toggle("change");
 	pics[i].classList.toggle("no-hover");
 }
@@ -32,7 +30,6 @@ function myfunction(i) {
 
 Array.prototype.forEach.call(pics, function (pic, index) {
 	pic.addEventListener("click", function () {
-		console.log(index);
 		myfunction(index);
 	});
 });
