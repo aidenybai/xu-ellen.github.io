@@ -220,6 +220,7 @@ p {
 
 .flip-back p {
 	max-width: 70%;
+	/* display: block; */
 }
 
 .change .flip-back {
