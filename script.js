@@ -5,11 +5,34 @@ menuIcon.addEventListener("click", () => {
 	navbar.classList.toggle("change");
 });
 
-const pic = document.querySelector(".pic");
-const col = document.querySelector(".col");
-const flip = document.querySelector(".flip");
+// const pic = document.querySelector(".pic");
+// const col = document.querySelector(".col");
+// const flip = document.querySelector(".flip");
 
-pic.addEventListener("click", () => {
-	col.classList.toggle("change");
-	pic.classList.toggle("no-hover");
+// pic.addEventListener("click", () => {
+// 	col.classList.toggle("change");
+// 	pic.classList.toggle("no-hover");
+// });
+
+const pics = document.querySelectorAll(".pic");
+const col = document.querySelectorAll(".col");
+console.log(pics, col);
+
+function myfunction(i) {
+	console.log("clicked", i, col[i], pics[i]);
+	col[i].classList.toggle("change");
+	pics[i].classList.toggle("no-hover");
+}
+
+// for (var i = 0; i < pics.length; i++) {
+// 	pics[i].addEventListener("click", function () {
+// 		myfunction(i);
+// 	});
+// }
+
+Array.prototype.forEach.call(pics, function (pic, index) {
+	pic.addEventListener("click", function () {
+		console.log(index);
+		myfunction(index);
+	});
 });
