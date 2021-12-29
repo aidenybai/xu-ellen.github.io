@@ -147,6 +147,12 @@ p {
 	width: 800px;
 	height: 600px;
 	perspective: 1000px;
+	cursor: pointer;
+	visibility: visible;
+}
+
+.change .pic img {
+	visibility: hidden;
 }
 
 .pic:hover > .overlay {
@@ -165,14 +171,53 @@ p {
 	display: block;
 }
 
-/* .flip {
+.change .pic {
+	border-radius: 25px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: white;
+}
+
+.flip {
 	position: relative;
-	width: 100%;
-	height: 100%;
+	/* width: 100%;
+	height: 100%; */
 	transition: transform 1s;
 	transform-style: preserve-3d;
 }
 
-.flip-card-container:hover .flip {
+.change .flip {
 	transform: rotateY(180deg);
-} */
+}
+
+.flip-front,
+.flip-back {
+	/* position: absolute; */
+	/* width: 100%;
+	height: 100%; */
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border-radius: 0.5rem; */
+}
+.flip-back {
+	color: black;
+	transform: rotateY(180deg);
+	visibility: hidden;
+	left: 0;
+	top: 15%;
+	right: 0;
+	text-align: center;
+	position: absolute;
+}
+
+.flip-back p {
+	max-width: 70%;
+}
+
+.change .flip-back {
+	visibility: visible;
+}
