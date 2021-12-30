@@ -295,12 +295,12 @@ p {
 
 	p {
 		font-weight: normal;
-		font-size: medium;
+		font-size: small;
 	}
 
 	h5 {
 		font-weight: normal;
-		font-size: large;
+		font-size: medium;
 	}
 	ul {
 		font-size: small;
@@ -320,52 +320,31 @@ p {
 	}
 
 	.hamburger-menu {
-		width: 35px;
-		height: 30px;
-		position: fixed;
 		top: 10px;
-		cursor: pointer;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
+		right: 10px;
 	}
 
 	.change .nav-list {
-		top: 50px;
-		position: absolute;
-		visibility: visible;
-		opacity: 0.8;
-		transition: visibility 0.1s linear, opacity 0.8s linear;
+		top: 5px;
 	}
 
 	.crop {
-		object-fit: cover;
-		border-radius: 25px;
-		width: 600px;
-		height: 450px;
+		width: 480px;
+		height: 360px;
 	}
 
 	.pic {
-		width: 600px;
-		height: 450px;
-		perspective: 1000px;
-		cursor: pointer;
-		visibility: visible;
-	}
-
-	.change .pic img {
-		visibility: hidden;
+		width: 480px;
+		height: 360px;
 	}
 
 	.pic:not(.no-hover):hover > .overlay {
-		position: absolute;
 		top: 0;
-		width: 600px;
-		height: 450px;
+		width: 480px;
+		height: 360px;
 	}
 
 	.flip-back p {
 		max-width: 100%;
-		/* display: block; */
 	}
 }
