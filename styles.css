@@ -329,19 +329,20 @@ p {
 	}
 
 	.crop {
-		width: 480px;
-		height: 360px;
+		width: 450px;
+		height: 330px;
 	}
 
 	.pic {
-		width: 480px;
-		height: 360px;
+		width: 450px;
+		height: 330px;
+		perspective: 500px;
 	}
 
 	.pic:not(.no-hover):hover > .overlay {
 		top: 0;
-		width: 480px;
-		height: 360px;
+		width: 450px;
+		height: 330px;
 	}
 
 	.flip-back p {
