@@ -11,6 +11,21 @@ body {
 	margin: 50px;
 }
 
+footer {
+	position: fixed;
+	margin: 0px;
+	/* width: 100%; */
+	left: 0;
+	right: 0;
+	text-align: center;
+	bottom: 0;
+}
+
+footer p {
+	font-size: 10px;
+	opacity: 80%;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
