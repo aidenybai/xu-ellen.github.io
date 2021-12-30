@@ -166,6 +166,11 @@ p {
 	padding-top: 10%;
 }
 
+#headshot {
+	width: 300px;
+	height: 300px;
+}
+
 #bio {
 	padding-top: 5%;
 }
@@ -280,4 +285,87 @@ p {
 
 .change .flip-back {
 	visibility: visible;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		margin: 25px;
+		letter-spacing: 1px;
+	}
+
+	p {
+		font-weight: normal;
+		font-size: medium;
+	}
+
+	h5 {
+		font-weight: normal;
+		font-size: large;
+	}
+	ul {
+		font-size: small;
+	}
+
+	#about {
+		padding-top: 30%;
+	}
+
+	#research {
+		padding-top: 30%;
+	}
+
+	#headshot {
+		width: 200px;
+		height: 200px;
+	}
+
+	.hamburger-menu {
+		width: 35px;
+		height: 30px;
+		position: fixed;
+		top: 10px;
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.change .nav-list {
+		top: 50px;
+		position: absolute;
+		visibility: visible;
+		opacity: 0.8;
+		transition: visibility 0.1s linear, opacity 0.8s linear;
+	}
+
+	.crop {
+		object-fit: cover;
+		border-radius: 25px;
+		width: 600px;
+		height: 450px;
+	}
+
+	.pic {
+		width: 600px;
+		height: 450px;
+		perspective: 1000px;
+		cursor: pointer;
+		visibility: visible;
+	}
+
+	.change .pic img {
+		visibility: hidden;
+	}
+
+	.pic:not(.no-hover):hover > .overlay {
+		position: absolute;
+		top: 0;
+		width: 600px;
+		height: 450px;
+	}
+
+	.flip-back p {
+		max-width: 100%;
+		/* display: block; */
+	}
 }
