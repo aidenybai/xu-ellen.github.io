@@ -329,19 +329,19 @@ p {
 	}
 
 	.crop {
-		width: 450px;
+		width: 400px;
 		height: 330px;
 	}
 
 	.pic {
-		width: 450px;
+		width: 400px;
 		height: 330px;
 		perspective: 500px;
 	}
 
 	.pic:not(.no-hover):hover > .overlay {
 		top: 0;
-		width: 450px;
+		width: 400px;
 		height: 330px;
 	}
 
