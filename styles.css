@@ -289,7 +289,7 @@ p {
 
 @media only screen and (max-width: 800px) {
 	body {
-		margin: 25px;
+		margin: 15px;
 		letter-spacing: 1px;
 	}
 
@@ -300,7 +300,7 @@ p {
 
 	h5 {
 		font-weight: normal;
-		font-size: medium;
+		font-size: 15px;
 	}
 	ul {
 		font-size: small;
@@ -317,6 +317,10 @@ p {
 	#headshot {
 		width: 200px;
 		height: 200px;
+	}
+
+	.center {
+		width: 80%;
 	}
 
 	.hamburger-menu {
