@@ -162,9 +162,9 @@ p {
 	transform: rotateZ(45deg) translate(-8px, -6px);
 }
 
-#about {
+/* #about {
 	padding-top: 10%;
-}
+} */
 
 #headshot {
 	width: 300px;
@@ -298,6 +298,11 @@ p {
 		font-size: small;
 	}
 
+	h1 {
+		font-weight: normal;
+		font-size: 25px;
+	}
+
 	h5 {
 		font-weight: normal;
 		font-size: 15px;
@@ -306,13 +311,13 @@ p {
 		font-size: small;
 	}
 
-	#about {
+	/* #about {
 		padding-top: 30%;
-	}
+	} */
 
-	#research {
+	/* #research {
 		padding-top: 30%;
-	}
+	} */
 
 	#headshot {
 		width: 150px;
