@@ -307,8 +307,13 @@ p {
 		font-weight: normal;
 		font-size: 15px;
 	}
+
 	ul {
-		font-size: small;
+		font-size: 10px;
+	}
+
+	li {
+		line-height: 0.5em;
 	}
 
 	/* #about {
@@ -334,7 +339,12 @@ p {
 	}
 
 	.change .nav-list {
-		top: 5px;
+		top: 50px;
+		right: 0px;
+	}
+
+	.nav-item {
+		letter-spacing: 1.5px;
 	}
 
 	.crop {
