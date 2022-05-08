@@ -1,3 +1,7 @@
+import { router } from 'https://unpkg.com/million@1.8.9-0/dist/router.mjs';
+
+router('body');
+
 const menuIcon = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector(".navbar");
 
